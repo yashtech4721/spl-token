@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.localnet]
+token_program1 = "2V6iSQwWKtxSXgNpmRe65tsB5HwJvHb6ijhY8EqQNP7J"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/yashpatel/.config/solana/id.json"
+
+[scripts]
+test = "yarn run mocha -t 1000000 tests/"
